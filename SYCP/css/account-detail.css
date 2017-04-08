@@ -1,0 +1,119 @@
+.clearfix22{
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.detail-center{
+	text-align: left;
+	margin-left: 170px;
+}
+.detail-center-1{
+	width: 500px;
+	margin: 10px 0px;
+}
+.detail-center-1 img{
+	float: left;
+	margin: 30px 25px;
+}
+.detail-center-1-1{
+	width: 200px;
+	margin-left: 170px;
+	padding-top: 12px;
+}
+.detail-center-1-1 p{
+	font-size: 20px;
+	margin: 10px 0px;
+}
+.detail-center-1-1 .tixian a{
+	color: #000;
+}
+.detail-center-1-1 a:hover{
+	opacity: 0.3;
+}
+.detail-center-1-1 .common{
+	display: inline-block;
+	width: 50px;
+}
+.detail-center-1-1 .tixian{
+	background-color: #efefef;
+	padding: 4px 10px;
+	border: 1px solid #e1e1e1;
+}
+.detail-center-1-1 .chongz{
+	background-color: #c00106;
+	padding: 5px 10px;
+	margin-left: 20px;
+}
+.detail-center-2{
+	margin: 40px 25px;
+}
+.detail-center-2 p{
+	display: inline-block;
+	width: 120px;
+	margin: 0;
+}
+.detail-center-2 img{
+	vertical-align: bottom;
+	margin-left: 5px;
+	max-width: 28px;
+	max-height: 18px;
+}
+.detail-center-3{
+	margin: 40px 25px;
+	margin-bottom: 10px;
+	border: 1px solid #e1e1e1;
+}
+.detail-center-3-title p{
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	width: 110px;
+	height: 40px;
+	border-right: 1px solid #e1e1e1;
+}
+.detail-center-3-title p:nth-child(6){
+	width: 423px;
+	border-bottom: 1px solid #e1e1e1;
+	border-right: 0;
+}
+.detail-center-3-choice{
+	width: 920px;
+	margin: 20px auto;
+}
+.detail-center-3-choice form{
+	font-size: 16px;
+}
+.detail-center-3-choice form select{
+	width: 70px;
+	height: 25px;
+	margin-right: 10px;
+}
+.detail-center-3-choice form input{
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	margin-left: 10px;
+}
+.detail-center-3-show table{
+	width: 978px;
+	text-align: center;
+	font-size: 12px;
+	background-color: #f2f2f2;
+	margin: 10px 0px;
+}
+.detail-center-3-show table th,.detail-center-3-show table td{
+	padding: 10px 0px;
+	width: 139px;
+}
+.detail-center-3-title .addcolor1{
+	border-top: 2px solid #e92f33;
+}
+.detail-center-3-title .addcolor2{
+	border-bottom: 1px solid #e1e1e1;
+}
+.detail-center-3-buttom{
+	margin: 30px 10px;
+}

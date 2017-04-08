@@ -1,0 +1,57 @@
+.account{
+	width: 1200px;
+	margin: 10px auto;
+	border: 1px solid #e1e1e1;
+}
+.account-left{
+	width: 160px;
+	border: 1px solid #e1e1e1;
+	padding-bottom: 20px;
+	float: left;
+}
+.account-left-1{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #e3e3e3;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.account-left-1 a{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+.account-left-2{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	margin: 10px 0px;
+	font-weight: bold;
+	text-align: left;
+}
+.account-left-2 img{
+	vertical-align: middle;
+	margin-left: 10px;
+	width: 18px;
+	height: 18px;
+}
+.account-left-2 span{
+	font-size: 14px;
+	margin: 0px 20px;
+	display: inline-block;
+}
+.account-left ul li a{
+	color: #000;
+	font-size: 13px;
+	margin-left: -13px;
+}
+.account-left ul li a:hover{
+	color: #F61F25;
+}
+.account-left ul li{
+	margin: 15px 0px;
+}
+.account-left .account-left-add-color{
+	color: #ff0007;
+}

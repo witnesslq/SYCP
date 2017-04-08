@@ -1,0 +1,30 @@
+本次项目是关于一个投彩网站的首页。我负责的是关于个人账户这一块。
+主要是一些常规的布局和交互的切换效果。
+
+
+1.再次要注意float的用法，以及清除浮动的几个方法。
+2.灵活的把p或者span或者a元素设置为display：inline-block；
+3.table的样式设置：对table或td或th设置border
+                   cellpadding：代表单元格外面的一个距离,用于隔开单元格与单元格空间
+				   cellspacing：代表表格边框与单元格补白的距离,也是单元格补白之间的距离
+4.合理使用a标签的点击效果 和 cursor：pointer的鼠标效果。
+5.display的内容切换：注意每个细节，在样式上合理使用addClass()和removeClass()；
+                     在js代码上，注意代码的精简，合理使用子元素选择器，还有就是提前html布局规范。
+6.对于图片居中，可以根据图片高度及div高度算出margin的上下取值，text内容一般使用height和line-height；注意vertical-align只能用于行内元素。
+
+7.表单布局：对于每行，可以用p标签包裹。
+            对于每行的左边文字，可以用span标签包裹，这样就能使用align-center（left/center/right）
+			对于input元素，可以修改它的默认样式，比如边框，高度和宽度，还有就是获取焦点的边框颜色。
+			提交按钮，有很多种实现，比如button，a标签，p标签加个cursor：pointer样式。
+8.input type=checkbox：有很大的问题，特别是全选或者全不选，需要好好研究，当点击某一个后再点击全选这个按钮，那么会对前一个无效。
+                       用js判断是否选中，用attr（“checked”）判断，合理使用each函数来遍历符合要求的checkbox
+					   用attr（“checked”，“true”）来表示选中。用removeAttr（“checked”）来取消选中。
+
+H5自定义属性的合理运用：注意区分DOM对象和JQUERY对象的方法不同。
+                       dom获取和设置：setAttribute()  /   dataset.*** 注意：这两种方法都会实时反应到节点上。
+					   jquery获取和设置: attr()  / data(***)  注意：用data方法设置属性值时，无法在dom节点上更新，但attr（）可以。
+					   注意css样式 用自定义属性作为选择器的写法
+
+					   
+
+总的来说，css的代码复用性不是很高，希望下次一定要提前规划好布局，还有就是js代码的精简性。

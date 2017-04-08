@@ -1,0 +1,90 @@
+.type{
+    margin: 20px 0;
+}
+.type>*{
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333333;
+}
+.type>span{
+    margin-right: 10px;
+}
+.type>a{
+    display: inline-block;
+    margin-right: 20px;
+    width: 80px;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+}
+.type>a:hover{
+    color: #b60005
+}
+.type-on{
+    background: #b60005;
+    color: #ffffff!important;
+}
+.page-box{
+    display: table;
+    margin: 20px auto;
+}
+.page-box a,span{
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+}
+.page-pl{
+    width: 70px;
+    height: 30px;
+    color: #999999;
+}
+.page{
+    width: 34px;
+    height: 30px;
+    color: #999999;
+}
+.page-red{
+    color: #b60005;
+}
+.page-box>form{
+    display: inline-block;
+}
+.page-red>input{
+    width: 48px;
+    height: 30px;
+    border: 1px solid #b60005;
+    color: #b60005;
+    text-align: center;
+    font-size: 14px;
+}
+.page-submit{
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+    border: 1px solid #b60005;
+    text-align: center;
+    font-size: 14px;
+    background: #b60005;
+    color: #ffffff;
+    margin-left: 10px;
+    outline: none;
+}
+.page-submit:hover{
+    background: #d60005;
+}
+.page-pl:hover{
+    color: #b60005;
+}
+.page:hover{
+    color: #b60005;
+}
+.page-pl-on{
+     box-shadow: 0 0 0  1px #b60005;
+    color: #b60005!important;
+ }
+.page-on{
+    background: #b60005!important;
+    color: #ffffff!important;
+}

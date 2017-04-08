@@ -1,0 +1,18 @@
+.ssq-content-right-title-ad{
+    font-size: 16px;
+    color: #c30005;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.ssq-content-right-title-ad>a{
+    font-weight: bold;
+    color: #c30005;
+    font-size: 22px;
+}
+.raw-notice-num-blue{
+    margin-left: 1px!important;
+    color: #2a98f0!important;
+}
+.draw-notice-ball-blue{
+    background: #2a98f0!important;
+}

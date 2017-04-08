@@ -1,0 +1,157 @@
+.data-center{
+	text-align: left;
+	margin-left: 170px;
+}
+.data-center-1{
+	margin: 20px 20px;
+}
+.data-center-1 p{
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 80px;
+}
+.data-center-1 .user-money span:nth-child(1){
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+}
+.data-center-1 .user-money span:nth-child(2){
+	margin-left: 10px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.data-center-1 .tixian a{
+	color: #000;
+}
+.data-center-1 a:hover{
+	opacity: 0.3;
+}
+.data-center-1 .common{
+	width: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+.data-center-1 .tixian{
+	background-color: #efefef;
+	padding: 4px 10px;
+	border: 1px solid #e1e1e1;
+}
+.data-center-1 .chongz{
+	background-color: #c00106;
+	padding: 5px 10px;
+}
+.data-center-2{
+	margin: 40px 25px;
+	margin-bottom: 10px;
+	border: 1px solid #e1e1e1;
+}
+.data-center-2-title p{
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	width: 110px;
+	height: 40px;
+	border-right: 1px solid #e1e1e1;
+}
+.data-center-2-title p:nth-child(2){
+	height: 39px;
+	cursor: auto;
+	width: 867px;
+	border-bottom: 1px solid #e1e1e1;
+	border-right: 0;
+	font-size: 14px;
+}
+.data-center-2-title .addcolor1{
+	border-top: 2px solid #e92f33;
+}
+.data-center-2-first{
+	margin-left: 20px;
+}
+.data-center-2-action{
+	width: 670px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	background-color: #fffadd;
+	border:1px solid #f9e0a0;
+}
+.data-center-2-action img{
+	margin: 8px 15px;
+	float: left;
+	vertical-align: middle;
+}
+.data-center-2-first form p{
+	margin: 20px 0px;
+}
+.data-center-2-first form p span{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+}
+.data-center-2-first form p span:nth-child(1) img{
+	margin-bottom: 10px;
+}
+.data-center-2-first form p .right-photo{
+	margin-bottom: -8px;
+}
+.data-center-2-first form p input{
+	height: 30px;
+	width: 230px;
+}
+.data-center-2-first form p select{
+	height: 30px;
+	width: 94px;
+	margin-right: 10px;
+}
+.data-center-2-first form p .same{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	color: #e92f33;
+	border: 2px solid #e92f33;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+.data-center-2-first form p .reset1{
+	margin-left: 160px;
+}
+.data-center-2-first form p .reset2{
+	margin-left: 13px;
+}
+.data-center-2-first form p .reset3{
+	width: 200px;
+	color: #d0d0d0;
+}
+.data-center-2-first form button{
+	height: 35px;
+	width: 150px;
+	font-size: 18px;
+	background-color: #c40207;
+	border: 1px solid #c40207;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 110px;
+	margin-bottom: 30px;
+}
+.data-center-3 {
+	margin: 10px 25px;
+}
+.data-center-3 p{
+	line-height: 30px;
+	font-size: 14px;
+}
+.data-center-3 p:nth-child(1){
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.data-center-3 span{
+	color: #429fda;
+	cursor: pointer;
+	font-size: 14px;
+}

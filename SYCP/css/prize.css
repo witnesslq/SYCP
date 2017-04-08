@@ -1,0 +1,118 @@
+.content{
+    width: calc(100% - 2px);
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+.content tr:hover{
+    background: #e6e3d9;
+}
+.content th,td{
+    border-bottom: 1px solid #cccccc;
+    padding-left: 30px;
+}
+.content th{
+    background: #f5f5f5;
+    font-weight: normal;
+    line-height: 50px;
+}
+.content *{
+    color: #666666;
+    font-size: 14px;
+    text-align: left;
+}
+.ball-box{
+    display: block;
+}
+.content td{
+    line-height: 46px;
+}
+.name{
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.name-detail{
+    color: #999999;
+}
+.control{
+    font-weight: bold;
+    color: #333333;
+    margin: 0 10px;
+}
+.control:hover{
+    color: #b60005;
+}
+.btn{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+}
+.buy{
+    color: #ffffff;
+    background: #b60005;
+}
+.buy:hover{
+    background: #d40006;
+}
+.follow{
+    color: #333333;
+    background: #f5f5f5;
+    margin-left: 10px;
+}
+.follow:hover{
+    background: #ffffff;
+}
+.ball-box>li{
+    margin-right: 5px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    color: #ffffff;
+}
+.big-block{
+    display: inline-block;
+    width: 80px;
+    height: 38px;
+    background: #f75000;
+    color: #ffffff;
+    line-height: 38px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.small-box{
+    margin-right: 5px;
+    display: inline-block;
+    width: 18px;
+    height: 34px;
+    color: #ffffff;
+    background: #4a9d00;
+    line-height: 34px;
+    text-align: center;
+}
+.team-goal{
+    color: #b60005;
+    margin: 0 20px;
+}
+.ball-red{
+    background: url(../images/prize/red-ball.png) round;
+}
+.ball-blue{
+    background: url(../images/prize/blue-ball.png) round;
+}
+.ball-box-text{
+    font-size: 14px;
+    color: #666666;
+}
+.ball-box-red{
+    font-size: 14px;
+    color: #b60005;
+}

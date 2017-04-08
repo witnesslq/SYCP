@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三亿彩票</title>
+    <link rel="stylesheet" href="css/globe.css">
+    <link rel="stylesheet" href="css/choose_type.css">
+    <link rel="stylesheet" href="css/ssq.css">
+    <link rel="stylesheet" href="css/3dfc.css">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/globe.js"></script>
+    <script src="js/ssq.js"></script>
+    <script src="js/3dfc.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="box">
+        <div class="phone">
+            <div>
+                <img src="images/phone-link.png" alt="" class="phone-link">
+                <p>
+                    手机版
+                    <img src="images/point.png" alt="" class="point transition">
+                </p>
+            </div>
+            <div class="layout">
+                <p>扫描手机二维码</p>
+                <img src="images/qr.png" alt="">
+            </div>
+        </div>
+        <div class="slider"></div>
+        <p>
+            欢迎您
+            <span>18867101920</span>
+        </p>
+        <div class="me">
+            <p>
+                我的账户
+                <img src="images/point.png" alt="" class="point transition">
+            </p>
+            <div class="layout clearfix">
+                <div class="remain clearfix">
+                    <p>余额：<span>20元</span></p>
+                    <p class="right">隐藏</p>
+                </div>
+                <a href="#" class="but">提现</a><a href="#" class="but">充值</a>
+                <a href="#">用户中心</a><a href="#">投注记录</a>
+                <div class="slider"></div>
+                <a href="#" class="right">退出</a>
+            </div>
+        </div>
+        <a href="#">充值</a>
+        <a href="#">提现</a>
+        <a href="#" class="quit">退出</a>
+    </div>
+</div>
+<div class="header-2 box clearfix">
+    <a href="index.html"><img src="images/logo.png" alt="" class="left"></a>
+    <div class="contact">
+        <img src="images/phone.png" alt="">
+        <p>400-400-4000</p>
+        <a href="#"><img src="images/kefu.png" alt="">联系客服</a>
+    </div>
+</div>
+<div class="nav">
+    <div class="box">
+        <ul class="nav-ul">
+            <li class="choose">
+                <p>选择彩种</p>
+                <img src="images/nav-point.png" alt="">
+                <ul class="show-choose-type">
+                    <li class="choose-type">
+                        <a href="jczq_hhtz.html" class="clearfix">
+                            <img src="images/index/choose-type.png">
+                            <span class="choose-type-name">竞彩足球</span>
+                            <span class="choose-type-description">直击五大联赛</span>
+                        </a>
+                    </li>
+                    <li class="choose-type">
+                        <a href="jclq_rfsf.html" class="clearfix">
+                            <img src="images/index/choose-type.png">
+                            <span class="choose-type-name">竞彩篮球</span>
+                            <span class="choose-type-description">NBA即将激烈展开</span>
+                        </a>
+                    </li>
+                    <li class="choose-type">
+                        <a href="ssq.html" class="clearfix">
+                            <img src="images/index/choose-type.png">
+                            <span class="choose-type-name">双色球</span>
+                            <span class="choose-type-description">给梦想一个机会</span>
+                        </a>
+                    </li>
+                    <li class="choose-type">
+                        <a href="dlt.html" class="clearfix">
+                            <img src="images/index/choose-type.png">
+                            <span class="choose-type-name">大乐透</span>
+                            <span class="choose-type-description">亿元巨奖等你掏...</span>
+                        </a>
+                    </li>
+                    <li class="choose-type">
+                        <a href="3dfc.html" class="clearfix">
+                            <img src="images/index/choose-type.png">
+                            <span class="choose-type-name">福彩3D</span>
+                        </a>
+                    </li>
+                    <li class="choose-type">
+                        <a href="sfc.html" class="clearfix">
+                            <img src="images/index/choose-type.png">
+                            <span class="choose-type-name">胜负彩</span>
+                        </a>
+                    </li>
+                    <li class="choose-type">
+                        <a href="rjc.html" class="clearfix">
+                            <img src="images/index/choose-type.png">
+                            <span class="choose-type-name">任九场</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="shopping.html">购彩中心</a></li>
+            <li><a href="prize.html">开奖公告</a></li>
+            <li><a href="man-list.html">名人名单</a></li>
+            <li><a href="cp_news.html">彩票资讯</a></li>
+            <li><a href="mobile.html">手机购彩</a></li>
+        </ul>
+    </div>
+</div>
+<div class="box clearfix">
+     <div class="ssq-title clearfix">
+         <img src="images/3dfc/3d-logo.gif" class="fc-logo">
+         <div class="fc-message-button-box">
+             <a>选号投注</a>
+         </div>
+         <div class="ssq-title-right-link">
+             <a href="#">开奖查询</a>
+             <span>|</span>
+             <a href="#">数据图表</a>
+             <span>|</span>
+             <a href="#">玩法介绍</a>
+         </div>
+     </div>
+    <div class="ssq-content clearfix">
+        <div id="choose-show2">
+            <div class="ssq-content-bar ssq-content-bar-padding clearfix">
+                <button id="zx-show-button" class="content-bar-button">直选</button>
+                <button id="zx6-show-button" class="content-bar-button">组选六</button>
+                <button id="zx3-show-button" class="content-bar-button">组选三</button>
+                <div class="content-bar-right">
+                    <select>
+                        <option>2016340 当前期</option>
+                    </select>
+                    <span>截止时间：2016-12-12 19:30 </span>
+                    <span>还剩</span>
+                    <span class="limit-time"></span>
+                </div>
+            </div>
+            <div id="zx-show" class="content-left clearfix">
+                <div class="ball-box">
+                    <p>
+                        <span>玩法说明：所选号码与开奖号码按位数全部相同即中</span>
+                        <span class="ball-box-red-text">1,040</span>
+                        <span>元。</span>
+                        <a href="#" class="ball-box-link">
+                            <img src="images/jczq/question.png">
+                            示例
+                        </a>
+                    </p>
+                    <ul class="choose-ball">
+                        <li class="clearfix">
+                            <div class="num-box">
+                                <p class="num-position">百位</p>
+                                <p class="num-forget">遗漏</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">0</a>
+                                <p class="num">5</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">1</a>
+                                <p class="num">5</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">2</a>
+                                <p class="num">4</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">3</a>
+                                <p class="num">0</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">4</a>
+                                <p class="num">2</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">5</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">6</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">7</a>
+                                <p class="num">3</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">8</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">9</a>
+                                <p class="num">2</p>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-all">全</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-big">大</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-small">小</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-odd">奇</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-even">偶</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-clear-all">清</a>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="num-box">
+                                <p class="num-position">十位</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">0</a>
+                                <p class="num">5</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">1</a>
+                                <p class="num">5</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">2</a>
+                                <p class="num">4</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">3</a>
+                                <p class="num">0</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">4</a>
+                                <p class="num">2</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">5</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">6</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">7</a>
+                                <p class="num">3</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">8</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">9</a>
+                                <p class="num">2</p>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-all">全</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-big">大</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-small">小</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-odd">奇</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-even">偶</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-clear-all">清</a>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="num-box">
+                                <p class="num-position">个位</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">0</a>
+                                <p class="num">5</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">1</a>
+                                <p class="num">5</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">2</a>
+                                <p class="num">4</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">3</a>
+                                <p class="num">0</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">4</a>
+                                <p class="num">2</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">5</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">6</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">7</a>
+                                <p class="num">3</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">8</a>
+                                <p class="num">1</p>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">9</a>
+                                <p class="num">2</p>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-all">全</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-big">大</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-small">小</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-odd">奇</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-even">偶</a>
+                            </div>
+                            <div>
+                                <a class="num-box-option num-box-clear-all">清</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="in-total">
+                    <span class="in-total-text-1">您一共选择了</span>
+                    <span class="in-total-red">0</span>
+                    <span class="in-total-text-1">注，共</span>
+                    <span class=" in-total-red">0</span>
+                    <span class="in-total-text-1">元 </span>
+                </div>
+                <div class="clear"></div>
+                <div class="add-btn-box">
+                    <button class="add-num add-btn">添加到投注列表</button>
+                    <a>[清空号码]</a>
+                </div>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div class="clearfix">
+                        <ul class="add-box">
+                            <li class="clearfix">
+                                <span class="add-text add-text-margin-right">[直选](0123456789)(0123456789)(0123456789)</span>
+                                <a class="add-text add-text-float add-text-dec">删除</a>
+                            </li>
+                        </ul>
+                        <ul class="add-work-bar">
+                            <li>
+                                <a class="add-one">
+                                    机选1注
+                                </a>
+                            </li>
+                            <li>
+                                <a>机选5注</a>
+                            </li>
+                            <li>
+                                <a>机选10注</a>
+                            </li>
+                            <li>
+                                <a>清空列表</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="tips">
+                        <span class="tips-text">确认结果：共</span>
+                        <span class="tips-text-red">0</span>
+                        <span class="tips-text">注，倍数</span>
+                        <input type="text" value="1" name="ssqBuy" class="buy">
+                        <span class="tips-text">倍，</span>
+                        <span class="tips-text">共</span>
+                        <span class="tips-text-red">0</span>
+                        <span class="tips-text">元，</span>
+                        <span class="tips-text">余额</span>
+                        <span class="tips-text-red">0.00</span>
+                        <span class="tips-text">元</span>
+                        <a class="tip-charge">[ 立即充值 ]</a>
+                    </div>
+                    <div class="up">
+                        <input type="submit" value="立即投注" class="up-button">
+                        <label>
+                            <input type="checkbox" name="hadRead" class="had-read">
+                            同意<a href="#">《投注协议》</a>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div id="zx6-show" class="content-left no clearfix">
+                <div class="ball-box">
+                    <p class="ball-box-2-p">
+                        <span>玩法说明：最少选择3个数字，若所选号码与开奖号码相同（顺序不限）即中</span>
+                        <span class="ball-box-red-text">1,040</span>
+                        <span>元。</span>
+                        <a href="#" class="ball-box-link">
+                            <img src="images/jczq/question.png">
+                            示例
+                        </a>
+                    </p>
+                    <ul class="choose-ball choose-ball-3">
+                        <li class="clearfix">
+                            <div>
+                                <a class="ball red-ball">0</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">1</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">2</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">3</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">4</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">5</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">6</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">7</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">8</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">9</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="in-total">
+                    <span class="in-total-text-1">您一共选择了</span>
+                    <span class="in-total-red">0</span>
+                    <span class="in-total-text-1">注，共</span>
+                    <span class=" in-total-red">0</span>
+                    <span class="in-total-text-1">元 </span>
+                </div>
+                <div class="clear"></div>
+                <div class="add-btn-box">
+                    <button class="add-num add-btn">添加到投注列表</button>
+                    <a>[清空号码]</a>
+                </div>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div class="clearfix">
+                        <ul class="add-box">
+                            <li class="clearfix">
+                                <span class="add-text add-text-margin-right">[组选六复式]245</span>
+                                <a class="add-text add-text-float add-text-dec">删除</a>
+                            </li>
+                        </ul>
+                        <ul class="add-work-bar">
+                            <li>
+                                <a>清空列表</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="tips">
+                        <span class="tips-text">确认结果：共</span>
+                        <span class="tips-text-red">0</span>
+                        <span class="tips-text">注，倍数</span>
+                        <input type="text" value="1" name="ssqBuy" class="buy">
+                        <span class="tips-text">倍，</span>
+                        <span class="tips-text">共</span>
+                        <span class="tips-text-red">0</span>
+                        <span class="tips-text">元，</span>
+                        <span class="tips-text">余额</span>
+                        <span class="tips-text-red">0.00</span>
+                        <span class="tips-text">元</span>
+                        <a class="tip-charge">[ 立即充值 ]</a>
+                    </div>
+                    <div class="up">
+                        <input type="submit" value="立即投注" class="up-button">
+                        <label>
+                            <input type="checkbox" name="hadRead" class="had-read">
+                            同意<a href="#">《投注协议》</a>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div id="zx3-show" class="content-left no clearfix">
+                <div class="ball-box">
+                    <p class="ball-box-2-p">
+                        <span>玩法说明：最少选择2个数字，所选号码与开奖号码一致（顺序不限），且开奖号码有任意两位相同，奖金</span>
+                        <span class="ball-box-red-text">1,040</span>
+                        <span>元。</span>
+                        <a href="#" class="ball-box-link">
+                            <img src="images/jczq/question.png">
+                            示例
+                        </a>
+                    </p>
+                    <ul class="choose-ball choose-ball-3">
+                        <li class="clearfix">
+                            <div>
+                                <a class="ball red-ball">0</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">1</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">2</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">3</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">4</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">5</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">6</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">7</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">8</a>
+                            </div>
+                            <div>
+                                <a class="ball red-ball">9</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="in-total">
+                    <span class="in-total-text-1">您一共选择了</span>
+                    <span class="in-total-red">0</span>
+                    <span class="in-total-text-1">注，共</span>
+                    <span class=" in-total-red">0</span>
+                    <span class="in-total-text-1">元 </span>
+                </div>
+                <div class="clear"></div>
+                <div class="add-btn-box">
+                    <button class="add-num add-btn">添加到投注列表</button>
+                    <a>[清空号码]</a>
+                </div>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div class="clearfix">
+                        <ul class="add-box">
+                            <li class="clearfix">
+                                <span class="add-text add-text-margin-right">[组选六复式]245</span>
+                                <a class="add-text add-text-float add-text-dec">删除</a>
+                            </li>
+                        </ul>
+                        <ul class="add-work-bar">
+                            <li>
+                                <a>清空列表</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="tips">
+                        <span class="tips-text">确认结果：共</span>
+                        <span class="tips-text-red">0</span>
+                        <span class="tips-text">注，倍数</span>
+                        <input type="text" value="1" name="ssqBuy" class="buy">
+                        <span class="tips-text">倍，</span>
+                        <span class="tips-text">共</span>
+                        <span class="tips-text-red">0</span>
+                        <span class="tips-text">元，</span>
+                        <span class="tips-text">余额</span>
+                        <span class="tips-text-red">0.00</span>
+                        <span class="tips-text">元</span>
+                        <a class="tip-charge">[ 立即充值 ]</a>
+                    </div>
+                    <div class="up">
+                        <input type="submit" value="立即投注" class="up-button">
+                        <label>
+                            <input type="checkbox" name="hadRead" class="had-read">
+                            同意<a href="#">《投注协议》</a>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="content-right-title">
+                <p>双色球奖池</p>
+                <img src="images/3dfc/logo-3d.gif">
+                <span id="right-time">每晚20：30开奖</span>
+                <br>
+                <select>
+                    <option selected>2016339 历史期</option>
+                    <option>2016339 历史期</option>
+                    <option>2016338 历史期</option>
+                </select>
+                <span>开奖结果</span>
+            </div>
+            <div class="three-ball">
+                <a>2</a>
+                <a>6</a>
+                <a>2</a>
+            </div>
+            <table class="content-right-table-1">
+                <tr>
+                    <th>奖项</th>
+                    <th>中奖注数</th>
+                    <th>每注奖金</th>
+                </tr>
+                <tr>
+                    <td>一等奖</td>
+                    <td>11446</td>
+                    <td>1,040</td>
+                </tr>
+                <tr>
+                    <td>组选三</td>
+                    <td>14179</td>
+                    <td>346</td>
+                </tr>
+                <tr>
+                    <td>组选六</td>
+                    <td>0</td>
+                    <td>173</td>
+                </tr>
+            </table>
+            <p class="hot-cold">冷热分析</p>
+            <span class="hot-cold-title">热号</span>
+            <span class="hot-cold-text"> 最近</span>
+            <span class="hot-cold-num">100</span>
+            <span class="hot-cold-text">期号码出现次数统计</span>
+            <table class="content-right-table-2">
+                <tr>
+                    <th>位数</th>
+                    <th>号码</th>
+                    <th>次数</th>
+                    <th>号码</th>
+                    <th>次数</th>
+                </tr>
+                <tr>
+                    <td>百位</td>
+                    <td>
+                        <a class="content-right-table-ball">8</a>
+                    </td>
+                    <td>14</td>
+                    <td>
+                        <a class="content-right-table-ball">3</a>
+                    </td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>十位</td>
+                    <td>
+                        <a class="content-right-table-ball">8</a>
+                    </td>
+                    <td>14</td>
+                    <td>
+                        <a class="content-right-table-ball">3</a>
+                    </td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>个位</td>
+                    <td>
+                        <a class="content-right-table-ball">8</a>
+                    </td>
+                    <td>14</td>
+                    <td>
+                        <a class="content-right-table-ball">3</a>
+                    </td>
+                    <td>12</td>
+                </tr>
+            </table>
+            <span class="hot-cold-title">冷号</span>
+            <span class="hot-cold-text"> 最近</span>
+            <span class="hot-cold-num">100</span>
+            <span class="hot-cold-text">期号码出现次数统计</span>
+            <table class="content-right-table-2">
+                <tr>
+                    <th>位数</th>
+                    <th>号码</th>
+                    <th>次数</th>
+                    <th>号码</th>
+                    <th>次数</th>
+                </tr>
+                <tr>
+                    <td>百位</td>
+                    <td>
+                        <a class="content-right-table-ball">8</a>
+                    </td>
+                    <td>14</td>
+                    <td>
+                        <a class="content-right-table-ball">3</a>
+                    </td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>十位</td>
+                    <td>
+                        <a class="content-right-table-ball">8</a>
+                    </td>
+                    <td>14</td>
+                    <td>
+                        <a class="content-right-table-ball">3</a>
+                    </td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>个位</td>
+                    <td>
+                        <a class="content-right-table-ball">8</a>
+                    </td>
+                    <td>14</td>
+                    <td>
+                        <a class="content-right-table-ball">3</a>
+                    </td>
+                    <td>12</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="box">
+        <ul class="footer-a">
+            <li>
+                <ul class="footer-ul footer-first">
+                    <li class="title"><img src="images/footer-1.png" alt=""><p>本章承诺</p></li>
+                    <li class="footer-first-li"><img src="images/footer-1-1.png" alt=""><p>交易安全</p></li>
+                    <li class="footer-first-li"><img src="images/footer-1-2.png" alt=""><p>购买便捷</p></li>
+                    <li class="footer-first-li"><img src="images/footer-1-3.png" alt=""><p>提款安全</p></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="footer-ul">
+                    <li class="title"><img src="images/footer-2.png" alt=""><p>新手上路</p></li>
+                    <li><a href="#">购彩指引</a></li>
+                    <li><a href="#">充值流程</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">兑奖流程</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="footer-ul">
+                    <li class="title"><img src="images/footer-3.png" alt=""><p>帮助中心</p></li>
+                    <li><a href="#">新手购彩</a></li>
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">功能指引</a></li>
+                    <li><a href="#">玩法介绍</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="footer-ul">
+                    <li class="title"><img src="images/footer-4.png" alt=""><p>联系我们</p></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">人才招聘</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">战略合作</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="footer-ul">
+                    <li class="title"><img src="images/footer-5.png" alt=""><p>友情链接</p></li>
+                    <li><a href="#">中国福利彩票</a></li>
+                    <li><a href="#">友情链接</a></li>
+                    <li><a href="#">百度</a></li>
+                    <li><a href="#">中彩网</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="footer-link">
+            <li><a href="#"><img src="images/footer-link-1.png" alt=""></a></li>
+            <li><a href="#"><img src="images/footer-link-2.png" alt=""></a></li>
+            <li><a href="#"><img src="images/footer-link-3.png" alt=""></a></li>
+            <li><a href="#"><img src="images/footer-link-4.png" alt=""></a></li>
+            <li><a href="#"><img src="images/footer-link-5.png" alt=""></a></li>
+            <li><a href="#"><img src="images/footer-link-6.png" alt=""></a></li>
+        </ul>
+        <p>版权所有：杭州博瀛科技有限公司  ICP备案：京ICP备12052812号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本站提示：彩票有风险，投注许谨慎 不向未满18周岁的青少年出售彩票！</p>
+    </div>
+</div>
+<div class="alert no">
+    <div class="alert-title-2 clearfix">
+        <span>温馨提示</span>
+        <img src="images/3dfc/alert-title-close.png">
+    </div>
+    <img src="images/3dfc/warning.png">
+    <span>请先每位至少选择一个号码再添加!</span>
+</div>
+<div class="mask no"></div>
+</body>
+</html>

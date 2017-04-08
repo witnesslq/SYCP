@@ -1,0 +1,157 @@
+.relation-center{
+	text-align: left;
+	margin-left: 170px;
+}
+.relation-center-1{
+	margin: 20px 20px;
+}
+.relation-center-1 p{
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 80px;
+}
+.relation-center-1 .user-money span:nth-child(1){
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+}
+.relation-center-1 .user-money span:nth-child(2){
+	margin-left: 10px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.relation-center-1 .tixian a{
+	color: #000;
+}
+.relation-center-1 a:hover{
+	opacity: 0.3;
+}
+.relation-center-1 .common{
+	width: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+.relation-center-1 .tixian{
+	background-color: #efefef;
+	padding: 4px 10px;
+	border: 1px solid #e1e1e1;
+}
+.relation-center-1 .chongz{
+	background-color: #c00106;
+	padding: 5px 10px;
+}
+.relation-center-2{
+	margin: 40px 25px;
+	margin-bottom: 10px;
+	border: 1px solid #e1e1e1;
+}
+.relation-center-2-title p{
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	width: 110px;
+	height: 40px;
+	border-right: 1px solid #e1e1e1;
+}
+.relation-center-2-title p:nth-child(6){
+	height: 39px;
+	cursor: auto;
+	width: 423px;
+	border-bottom: 1px solid #e1e1e1;
+	border-right: 0;
+	font-size: 14px;
+}
+.relation-center-2-title .addcolor1{
+	border-top: 2px solid #e92f33;
+}
+.relation-center-2-title .addcolor2{
+	border-bottom: 1px solid #e1e1e1;
+}
+.relation-center-2-first{
+	margin-left: 20px;
+}
+.relation-center-2-action{
+	width: 670px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	background-color: #fffadd;
+	border:1px solid #f9e0a0;
+}
+.relation-center-2-action img{
+	margin: 8px 15px;
+	float: left;
+	vertical-align: middle;
+}
+.relation-center-2-first form p{
+	margin: 20px 0px;
+}
+.relation-center-2 form p span{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+}
+.relation-center-2-first form p .right-photo{
+	margin-bottom: -11px;
+}
+.relation-center-2-first form p input{
+	height: 30px;
+	width: 230px;
+}
+.relation-center-2-first form p .reset1{
+	width: 40px;
+	cursor: pointer;
+}
+.relation-center-2 form button{
+	height: 35px;
+	width: 150px;
+	font-size: 18px;
+	background-color: #c40207;
+	border: 1px solid #c40207;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 110px;
+	margin-bottom: 30px;
+}
+.relation-center-2-second img{
+	margin: 40px;
+}
+.relation-center-2-third form p,.relation-center-2-four form p,.relation-center-2-five form p{
+	font-size: 16px;
+	margin: 40px 32px;
+}
+.relation-center-2-third form input,.relation-center-2-four form input,.relation-center-2-five form input{
+	height: 30px;
+	width: 230px;
+}
+.relation-center-2-third form button{
+	margin-left: 140px;
+}
+.relation-center-2-four form button,.relation-center-2-five form button{
+	margin-left: 140px;
+}
+.relation-center-2-four form a{
+	font-size: 14px;
+	color: #000;
+}
+.relation-center-3 {
+	margin: 10px 25px;
+}
+.relation-center-3 p{
+	line-height: 30px;
+	font-size: 14px;
+}
+.relation-center-3 p:nth-child(1){
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.relation-center-3 span{
+	color: #429fda;
+	cursor: pointer;
+	font-size: 14px;
+}

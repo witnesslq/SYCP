@@ -1,0 +1,104 @@
+.clearfix22{
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.account-center{
+	text-align: left;
+	margin-left: 170px;
+}
+.account-center-1{
+	width: 500px;
+	margin: 10px 0px;
+}
+.account-center-1 img{
+	float: left;
+	margin: 30px 25px;
+}
+.account-center-1-1{
+	width: 200px;
+	margin-left: 170px;
+	padding-top: 12px;
+}
+.account-center-1-1 p{
+	font-size: 20px;
+	margin: 10px 0px;
+}
+.account-center-1-1 .tixian a{
+	color: #000;
+}
+.account-center-1-1 a:hover{
+	opacity: 0.3;
+}
+.account-center-1-1 .common{
+	display: inline-block;
+	width: 50px;
+}
+.account-center-1-1 .tixian{
+	background-color: #efefef;
+	padding: 4px 10px;
+	border: 1px solid #e1e1e1;
+}
+.account-center-1-1 .chongz{
+	background-color: #c00106;
+	padding: 5px 10px;
+	margin-left: 20px;
+}
+.account-center-2{
+	margin: 40px 25px;
+}
+.account-center-2 p{
+	display: inline-block;
+	width: 120px;
+	margin: 0;
+}
+.account-center-2 img{
+	vertical-align: bottom;
+	margin-left: 5px;
+	max-width: 28px;
+	max-height: 18px;
+}
+.account-center-3{
+	width: 950px;
+	margin-left: 25px;
+	border-top: 1px solid #e1e1e1;
+	padding-top: 20px;
+}
+.account-center-3 .user-title span{
+	float: right;
+}
+.account-center-3 .user-title span a{
+	font-size: 12px;
+	color: #429fda;
+}
+.account-center-3 table{
+	width: 950px;
+	text-align: center;
+	font-size: 12px;
+	background-color: #f2f2f2;
+	margin: 10px 0px;
+}
+.account-center-3 table th,.account-center-3 table td{
+	padding: 10px 0px;
+}
+.account-center-3 .user-memory,.account-center-3 .user-news{
+	text-align: center;
+	margin: 20px 0px;
+	font-size: 12px;
+}
+.account-center-3 .user-news-1{
+	color: #ad6565;
+}
+.account-center-3 .user-news-2 a{
+	color: #429fda;
+	font-size: 12px;
+}
+.account-center-3 .user-news span{
+	font-size: 12px;
+}
+.account-center-4{
+	width: 60px;
+	position: fixed;
+	top: 180px;
+	right: 10px;
+}

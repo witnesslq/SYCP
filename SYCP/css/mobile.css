@@ -1,0 +1,46 @@
+.phone-img{
+    float: left;
+    width: 600px;
+    margin-right: 80px;
+}
+.right{
+    width: calc(100% - 680px);
+    float: left;
+}
+.name{
+    width: 264px;
+    margin: 120px auto 0 auto;
+}
+.code{
+    float: left;
+    width: 154px;
+    margin: 50px 30px 0 90px;
+}
+.download-box{
+    margin-top: 50px;
+    float: left;
+}
+.download{
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-align: left;
+    text-indent: 76px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.download *{
+    cursor: pointer;
+}
+.download>p{
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 21px;
+}
+.download-ios{
+    background: url(../images/mobile/ios.png) no-repeat 13px #2a98f0;
+}
+.download-android{
+    background: url(../images/mobile/android.png) no-repeat 13px #3ec942;
+}
